@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Open+Sans&display=swap');
+
+/*Basic style*/
+h1,h2
+{
+    font-family: 'Concert One', sans-serif;
+}
+h3,h4,h5,p{
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Open+Sans&display=swap');
 
 /*Basic style*/
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 1.5em;
+}
 h1,h2
 {
     font-family: 'Concert One', sans-serif;
@@ -8,8 +14,13 @@ h1,h2
 h3,h4,h5,p{
     font-family: 'Open Sans', sans-serif;
 }
-main{
-    margin:0 15%;
+h4{
+    margin-bottom: 20px;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
 }
 .center{
     width: 50%;
@@ -19,11 +30,11 @@ main{
     text-align: center;
 }
 .full-width{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 .container{
-    margin: 10%;
+    margin: 5% 15%;
 }
 .vertical-center{
     padding: 25% 0;
@@ -32,9 +43,16 @@ main{
 section{
     margin:0;
 }
+.thumbnail{
+    width: 100%;
+    display: inline-block;
+}
 .hero-holder{
     background-image: url("https://source.unsplash.com/daily");
     background-size: cover;
+}
+.grid{
+    display: fluid;
 }
 nav a{
     color: white;
@@ -43,6 +61,31 @@ nav a:hover{
     color: grey;
     text-decoration: none;
 }
+/*ABOUT*/
+
+h4{
+    font-weight:bold;
+}
+
+/**CARD*/
+.card{
+    margin-top: 20px;
+}
+.back-card{
+    display:none;
+}
+
+
+/*FOOTER*/
 footer{
     bottom: 0;
+}
+.menu-simple{
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    text-emphasis: none;
+    list-style-type: none;
+    margin-bottom: 50px;
 }

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+//import google font
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Open+Sans&display=swap');
+
+//Set colors
+$pink: #FA897B;
+$purple: #CCABD8;
+$blue: #86E3CE;
+$green: #DDE6A5;
+$yellow: #FFDD94;
+$white: #FEFEFE;
+$black: #010101;
+
+//Update typo
+$family-sans-serif: "Concert One", sans-serif;
+$grey-dark: $black;
+$grey-light: $blue;
+$primary: $white;
+$link: $yellow;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $pink;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma

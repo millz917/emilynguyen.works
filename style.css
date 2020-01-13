@@ -40,7 +40,7 @@ p{
     margin: 5% 15%;
 }
 .vertical-center{
-    padding: 10% 0;
+    padding-top: 10%;
     height: 70%;
     vertical-align: middle;
 }
@@ -49,6 +49,7 @@ section{
 }
 .thumbnail{
     width: 100%;
+    margin-top: -10px;
     display: inline-block;
 }
 .hero-holder{
@@ -65,6 +66,11 @@ section{
 .grid{
     display: fluid;
 }
+#Intro-Text{
+    color:black;
+
+}
+/*NAVBAR*/
 nav{
     background: white;
 }
@@ -111,7 +117,9 @@ h4{
 .float-left{
     float:left;
 }
-
+.full-size{
+    height: 100%;
+}
 
 /*FOOTER*/
 footer{

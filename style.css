@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Open+Sans&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
+/*Media*/
+@media only screen and (max-width: 780px){
+    #logo-text{
+        display: none;
+    }
+}
+@media only screen and (min-width: 780px){
+    #logo-text{
+        display: inline-block;
+        margin-left: 5px;
+    }
+}
 /*Basic style*/
 h1{
     font-size: 3em;
@@ -46,6 +60,7 @@ p{
 }
 section{
     margin:0;
+    padding-top: 10px;
 }
 .thumbnail{
     width: 100%;
@@ -53,7 +68,7 @@ section{
     display: inline-block;
 }
 .hero-holder{
-    background-image: url("https://source.unsplash.com/daily");
+    background-image: url("https://source.unsplash.com/weekly?dawn");
     background-size: cover;
     opacity: 0.8;
 }
@@ -78,11 +93,10 @@ nav a{
     color: black;
 }
 nav a:hover{
-    color: grey;
-    text-decoration: none;
+    font-weight: bold;
 }
 #logo{
-    width: 1em;
+    max-width: 1em;
     display: inline;
     vertical-align: text-bottom;
 }
@@ -94,8 +108,6 @@ nav a:hover{
 }
 a.navbar-item:hover{
     background: none;
-    text-decoration: underline;
-    text-decoration-color: paleturquoise;
     color: black;
 }
 /*ABOUT*/

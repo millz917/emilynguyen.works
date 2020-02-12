@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Open+Sans&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+/*Media*/
+@media only screen and (max-width: 780px){
+    #logo-text{
+        display: none;
+    }
+}
+@media only screen and (min-width: 780px){
+    #logo-text{
+        display: inline-block;
+        margin-left: 5px;
+    }
+}
+/*Basic style*/
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 1.5em;
+}
+h1,h2
+{
+    font-family: 'Concert One', sans-serif;
+}
+h3,h4,h5,p{
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    margin-bottom: 20px;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+.center{
+    width: 50%;
+    margin: 0 25%;
+}
+.text-center{
+    text-align: center;
+}
+.full-width{
+    width: 100vw;
+    height: 60vh;
+}
+.project{
+    width:100vw;
+}
+.container{
+    margin: 5% 15%;
+}
+.vertical-center{
+    padding-top: 10%;
+    height: 70%;
+    vertical-align: middle;
+}
+section{
+    margin:0;
+    padding-top: 10px;
+}
+.thumbnail{
+    width: 100%;
+    margin-top: -10px;
+    display: inline-block;
+}
+.hero-holder{
+    background-image: url("https://source.unsplash.com/weekly?beige");
+    background-size: cover;
+    opacity: 0.8;
+}
+.project-hero{
+    height: 50%;
+}
+.hero-holder > * {
+    color: black;
+}
+.grid{
+    display: fluid;
+}
+#Intro-Text{
+    color:black;
+
+}
+/*NAVBAR*/
+nav{
+    background: white;
+}
+nav a{
+    color: black;
+}
+nav a:hover{
+    font-weight: bold;
+}
+#logo{
+    max-width: 1em;
+    display: inline;
+    vertical-align: text-bottom;
+}
+.head{
+    margin: 1rem 3rem;
+}
+.navbar{
+    vertical-align: top;
+}
+a.navbar-item:hover{
+    background: none;
+    color: black;
+}
+/*ABOUT*/
+
+h4{
+    font-weight:bold;
+}
+
+/**CARD*/
+.card{
+    margin-top: 20px;
+}
+.back-card{
+    display:none;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float:left;
+}
+.full-size{
+    height: 100%;
+}
+
+/*FOOTER*/
+footer{
+    bottom: 0;
+}
+.menu-simple{
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    text-emphasis: none;
+    list-style-type: none;
+    margin-bottom: 50px;
+}

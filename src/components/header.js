@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from '../logo.jpg';
-import '../styles/style.css';
 
 class Header extends React.Component{
   render(){
@@ -16,7 +14,7 @@ class Header extends React.Component{
             </div>
                 </nav>
                 
-              <h2><img id="logo" src="logo.jpg" alt="logo" /><span id="logo-text">  Emily Nguyen</span></h2>
+              <h2><img id="logo" src="../images/logo.jpg" alt="logo" /><span id="logo-text">  Emily Nguyen</span></h2>
         </header>
       
   );

@@ -1,13 +1,11 @@
 import React from 'react';
 import logo from '../logo.jpg';
-import '../styles/style.css';
-
 class Footer extends React.Component{
   render(){
     return (
       <footer class="text-center">
       <div class="container">
-                       <div class="social-icons">
+      <div class="social-icons">
       <ul class="menu-simple">
         <li><a href="https://github.com/millz917"><i class="fa fa-github" aria-hidden="true"/></a></li>
         <li><a href="https://www.behance.net/emilyn1"><i class="fa fa-behance" aria-hidden="true"/></a></li>

@@ -1,8 +1,4 @@
 import React from 'react';
-import Card from "../components/card"
-
-const Card 
-
 class MoneyBuster extends React.Component{
  render(){ return(
     <main >

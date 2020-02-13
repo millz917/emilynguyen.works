@@ -5,8 +5,8 @@ class Card extends React.Component{
     return (
       <article class="card">
       <a href={this.props.link}>
-      <div class="front-card">
-      <img class="thumbnail" src={this.img.link}/>
+      <div class="front-card full-sized">
+      <img class="thumbnail" src={this.props.src}/>
     <h4>{this.props.name}</h4>
       </div>
       <div class="back-card">

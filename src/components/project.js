@@ -1,6 +1,4 @@
 import React from 'react';
-import ImageMoneyBuster from '../images/MoneyBuster/imgmoneybuster'
-import ReactDOM from "react-dom";
 import Card from './card'
 
 class Gallery extends React.Component{

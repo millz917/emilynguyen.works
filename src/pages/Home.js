@@ -5,10 +5,9 @@ import Contact from '../components/contact'
 
 class Home extends React.Component{
  render(){ return(
-    <body>
         <main>
-            <section id="Intro" class="full-width hero-holder">
-                <div class="text-center vertical-center">
+            <section id="Intro" className="full-width hero-holder">
+                <div className="text-center vertical-center">
                     <h1 >Hello there :)</h1>
                     <p>My name is Emily and I am a product designer and developer </p>
                 </div>
@@ -17,7 +16,6 @@ class Home extends React.Component{
         <Project />
         <Contact />
      </main>
- </body>
   );
  }
 }

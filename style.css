@@ -64,8 +64,9 @@ section{
 }
 .thumbnail{
     width: 100%;
-    margin-top: -10px;
-    display: inline-block;
+    height: 100%;
+    object-fit: cover; 
+    margin-top: -10px; 
 }
 .hero-holder{
     background-image: url("https://source.unsplash.com/weekly?dawn");
@@ -110,6 +111,8 @@ a.navbar-item:hover{
     background: none;
     color: black;
 }
+
+
 /*ABOUT*/
 
 h4{

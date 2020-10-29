@@ -66,10 +66,21 @@ section{
     width: 100%;
     height: 100%;
     object-fit: cover; 
-    margin-top: -10px; 
+    transition: transform .2s; 
 }
+
+.project-content{
+    margin-top: -10px;
+}
+
+.project-thumbnail:hover {
+transform: scale(1.1);
+z-index: 10;
+}
+
 .hero-holder{
-    background-image: url("https://source.unsplash.com/weekly?dawn");
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     background-size: cover;
     opacity: 0.8;
 }
